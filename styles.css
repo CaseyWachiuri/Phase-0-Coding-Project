@@ -1,42 +1,41 @@
+html {
+	font-size: 100%;
+	background: #FFF;
+}
+
 body {
 	font-family: 'Comic Relief', system-ui;
 	font-weight: 400;
 	font-style: normal;
-	background: #f9f9f9;
-	line-height: 1.6;
-	padding: 20px;
+	max-width: 30rem;
+	margin: 0;
+	color: #222;
+	padding: 5vw 10vw;
 }
 
-header {
-	text-align: center;
-	margin-bottom: 40px;
+
+.profile-picture {
+	width: 6rem;
+	height: 6rem;
+	background: #222;
+	border-radius: 100%;
+	float: left;
+	margin-left: 1rem;
 }
 
-header h1 {
-	font-family: 'Comic Relief', system-ui;
+h1 {
+	height: 6rem;
+	line-height: 6rem;
+	font-size: calc(2rem + 0.6vw);
 	font-weight: 700;
-	font-style: normal;
-	font-size: 3rem;
-	margin-bottom: 10px;
+	white-space: nowrap;
+	margin: 0;
+	padding-left: 0.85rem;
+	position: relative;
+	display: inline-block;
 }
 
-header p {
-	font-size: 1.2rem;
-}
-
-.poem {
-	max-width: 800px;
-	margin: 0 auto;
-	padding: 20px;
-	border-radius: 8px;
-}
-
-.poem p {
-	font-size: 1.5rem;
-	margin-bottom: 20px;
-	line-height: 1.8;
-}
-
-.poem .highlight {
-	font-weight: bold;
+p {
+	margin: 1rem;
+	font-size: 1.25rem;
 }
