@@ -35,6 +35,15 @@ h1 {
 	display: inline-block;
 }
 
+span {
+	height: 6rem;
+	line-height: 6rem;
+	font-size: calc(2rem + 0.6vw);
+	font-weight: 700;
+	font-size: calc(2rem + 0.6vw);
+	position: relative;
+}
+
 p {
 	margin: 1rem;
 	font-size: 1.25rem;
